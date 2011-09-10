@@ -36,7 +36,7 @@ If you want to use it for ajax calls, set the ajax param to true, otherwise it w
       ajax: true
     });
 
-And, lastly, if you want to use a different interval than the default of 100ms between tests (which you'd definitely do for any test involving ajax):
+And, lastly, if you want to use a different interval than the default of 10ms between tests (which you'd definitely do for any test involving ajax):
 
     jQuery.waitill(..., ..., {
       interval: 60 * 1000 //once every minute
